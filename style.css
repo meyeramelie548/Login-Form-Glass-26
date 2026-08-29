@@ -2,7 +2,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover
 input:-webkit-autofill:focus {
   -webkit-box-shadow:000 px 1000px #00000000 inset !important;
-  -webkit-text-fill-color: aqua !important;
+  -webkit-text-fill-color: yellow !important;
   transition: background-color 5000s ease-in-out 0s;}
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
