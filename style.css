@@ -1,5 +1,5 @@
 input:-webkit-autofill,
-input:-webkit-autofill:hover
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
   -webkit-box-shadow:000 px 1000px #00000000 inset !important;
   -webkit-text-fill-color: yellow !important;
@@ -105,11 +105,13 @@ padding: 0px 45px 0px 20px;
   color: purple;
   font-weight: 600;
   cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
 }
 .wrapper .btn:hover{
   background-color: transparent;
-  color: purple;
-  border: 2px solid white;
+  color: yellow;
+  border: 2px solid yellow;
 }
 .wrapper .register-link {
   font-size: 14px;
@@ -140,7 +142,7 @@ body{
   padding: 20px 30px;
   margin: 10px 0;
 }
-wrapper h1{
+.wrapper h1{
   font-size: 24px;
 }
 .wrapper .input-box {
